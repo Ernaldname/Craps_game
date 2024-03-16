@@ -6,7 +6,7 @@ import javafx.scene.control.TextField;
 import org.example.crapsgame.model.Player;
 import org.example.crapsgame.view.alert.AlertBox;
 
-public class GameController {
+public class WelcomeController {
     @FXML
     private TextField nicknameTextField;
 
@@ -16,4 +16,5 @@ public class GameController {
         Player player = new Player(1,nickname);
         new AlertBox().showMessage("Juego de craps","Informacion","Bienvenido");
     }
+
 }

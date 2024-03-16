@@ -6,4 +6,6 @@ module org.example.crapsgame {
     opens org.example.crapsgame.controller to javafx.fxml;
 
     exports org.example.crapsgame;
+    opens org.example.crapsgame.view to javafx.fxml;
+    opens org.example.crapsgame.view.alert to javafx.fxml;
 }
